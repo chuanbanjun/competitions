@@ -1,0 +1,10 @@
+# coding : utf-8
+# created by {{ username }} at {{ time }}
+
+def {{ name }}(train, test):
+    """
+        {{ desc }}
+    """
+    train_res = train
+    test_res = test
+    return train_res, test_res

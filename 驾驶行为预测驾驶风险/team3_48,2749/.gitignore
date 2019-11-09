@@ -1,0 +1,24 @@
+# for different platform:
+venv/
+.idea/
+__pycache__/
+__init__.py
+!templates/__init__.py
+.DS_Store
+
+# generated data directories
+datasets/
+cleaned/
+features/
+model/
+catboost_info/
+# origin data files: you can get from start.sh
+train.csv
+test.csv
+
+# generated from commit.sh
+_PA_competition/
+_PA_competition.zip
+
+# for different user
+_user_config.yaml
